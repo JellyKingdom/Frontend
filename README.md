@@ -1,25 +1,59 @@
 ## MyPlace 클론코딩
 
-## 1. 시연영상
-https://youtu.be/B4itX-rCSgY
+네이버 MyPlace 클론코딩입니다.
+방문했던 음식점에 대한 리뷰를 작성하고, 다른 사람들이 남긴 리뷰를 확인할 수 있습니다.
+마음에 드는 리뷰는 좋아요를 표시해보세요.
 
-## 2. 프론트엔드 멤버
+## 📌 About Project
+- 시연영상 : https://youtu.be/B4itX-rCSgY
 
-- Front-end (React)
-    - 김찬희
-    - 한지윤
+## 📌 조원 정보
+- FE
     - 최승호
+    - 한지윤
+    - 김찬희
+- BE
+    - 김근호
+    - 김도연
+    - 김진원
 
-## 3. 사용 기술 🔧 ⚙️
+## 🛠️ 기술스택
 
-- View : **`React`, `React-Router`, `Styled-components`,`useQuery`, `react-bootstrap`, `redux-devtools`,**
-- State Management : **`Redux` ,`slice`, `instance`**
-- Build Tool : **`Create React App`**
-- Infrastructure **`AWS S3`, `Route 53`**
-- Other Tools : **`Git`, `Github`, `notion`**
+- FE
+  - JavaScript
+  - React
+- BE
+  - Java
+  - Spring Boot
+  - MySQL
 
-## 4. 구현 기능 📃
-### 회원가입 & 로그인
+## 📌 구현 기능
+
+- **회원가입**
+  - **유효성 검사**
+    - **아이디 : 5~20자의 영문 소문자, 숫자와 특수기호(_),(-)만 사용 가능합니다.**
+    - **비밀번호 : 8~16자 영문 대 소문자, 숫자, 특수문자를 사용하세요.**
+    - **닉네임 : 2~20자의 한글, 영문 대 소문자, 숫자를 사용하세요.**
+    - **입력안한 경우 : 필수 정보입니다.**
+- **로그인**
+  - **ID, PW 일치하지 않는 경우 : 다시 로그인해 주세요.**
+- **리뷰 CRUD**
+  - **리뷰 작성, 수정, 삭제가 가능하다.**
+  - **리뷰 등록 시, 이미지를 함께 올릴 수 있다.**
+  - **리뷰 수정, 삭제는 작성자만 가능하다.**
+- **피드 탭**
+  - **모든 리뷰를 조회할 수 있다.**
+  - **무한 스크롤**
+- **방문 탭**
+  - **내가 방문했던 음식점을 확인할 수 있다.**
+  - **방문했던 음식점의 리뷰를 작성할 수 있다.**
+- **리뷰 탭**
+  - **내가 작성한 리뷰를 볼 수 있다.**
+- **좋아요 기능**
+  - **마음에 드는 리뷰에 좋아요를 누를 수 있다.**
+  
+## 📌 구현 화면
+
 <img width="400" alt="Screenshot 2023-03-09 at 11 04 12 PM" src="https://user-images.githubusercontent.com/109452831/224049747-14f5a4a9-6741-41f9-8cbc-4a57b2210530.png">
 <img width="400" alt="Screenshot 2023-03-09 at 11 04 05 PM" src="https://user-images.githubusercontent.com/109452831/224049531-80e094ec-7b48-4b7f-b0ba-2c03d658062a.png">
 
